@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 .card {
@@ -53,7 +53,9 @@ hr {
 }
 .link {
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 600;
+  margin-right: 0.2rem;
+  color: rgb(75, 74, 74);
 }
 .link:hover {
   cursor: pointer;
