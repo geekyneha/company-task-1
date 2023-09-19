@@ -1,0 +1,24 @@
+/* button */
+.btn {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* notificatin count */
+.notifications {
+  background-color: #e41212;
+  color: var(--secondary-color);
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 0 0.2rem;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--btn-hover-color);
+}
