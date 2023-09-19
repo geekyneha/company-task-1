@@ -4,16 +4,11 @@
   --secondary-color: #fff;
   --text-color: #000;
   --btn-color: #2cb4e9;
-  --btn-background-color:#B8D5ED;
-  --btn-hover-color:#B1E7FF;
+  --btn-background-color: #b8d5ed;
+  --btn-hover-color: #b1e7ff;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
