@@ -1,0 +1,27 @@
+/* side bar */
+.side-bar {
+  background-color: #e3f1fe;
+  padding: 1rem 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .options */
+.options {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  height: 120px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.add-btn {
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: #d3e9ff;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  background-color: var(--btn-hover-color);
+}
