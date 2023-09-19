@@ -1,7 +1,6 @@
 .cards {
   display: flex;
   justify-content: space-around;
-
   flex-wrap: wrap;
   margin: 2rem;
 }
@@ -22,7 +21,7 @@
   font-size: 1.8rem;
   color: #000;
   font-weight: 500;
-  margin: 0.5rem 0;
+  margin: 0 0 0.5rem;
 }
 .light {
   color: darkgray;
@@ -32,7 +31,7 @@
   position: relative;
   display: inline-block;
   color: #464545;
-  margin: 0.5rem 0;
+  margin: 0.2rem 0;
 }
 
 .discounted-price::before {
@@ -44,7 +43,10 @@
   top: 50%;
   transform: translateY(50%) rotate(8deg);
 }
-
+hr {
+  margin-top: 1rem;
+  color: darkgray;
+}
 /* explore  */
 .explore-feature {
   margin-left: 2rem;
