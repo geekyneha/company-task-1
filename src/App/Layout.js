@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import { LeftSideBar } from '../components/LeftSideBar';
 import style from '../styles/Layout.module.css';
 import Main from '../components/Main';
+import RightSideBar from '../components/RightSideBar';
 
 const Layout = () => {
   return (
@@ -16,6 +17,7 @@ const Layout = () => {
           <Main />
         </div>
         <div className={style['right-side-bar']}></div>
+        <RightSideBar />
       </div>
     </div>
   );
