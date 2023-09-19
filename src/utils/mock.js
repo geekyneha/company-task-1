@@ -8,7 +8,7 @@ import {
   AiOutlineCloudSync,
   AiOutlineMail,
 } from 'react-icons/ai';
-
+import { BsCheck2All } from 'react-icons/bs';
 export const navigations = [
   {
     id: 1,
@@ -99,6 +99,56 @@ export const pricingCard = [
       {
         icon: <AiOutlineMail />,
         benefit: 'Email+Chat+Whatsapp Support',
+      },
+    ],
+  },
+];
+export const subscriptionCard = [
+  {
+    id: 1,
+    plan: 'Free Starter',
+    text: 'The quickest and easiest way to try Protocols with basic functionalities',
+    btnText: 'Get Started',
+    btnBg: '#C6FF8E',
+    smallBtn: 'Free Forever',
+
+    features: [
+      {
+        icon: <AiOutlineUser />,
+        benefit: 'Upto 8 Users',
+      },
+      {
+        icon: <AiOutlineCloudSync />,
+        benefit: 'Upto 3gb Storage',
+      },
+      {
+        icon: <AiOutlineMail />,
+        benefit: 'Email Support',
+      },
+      {
+        icon: <BsCheck2All />,
+        benefit:
+          'Basics of Documents, Task Flow, Voting, Accounting, Banking, Notes, Investor, Director and Team Management included',
+      },
+    ],
+  },
+  {
+    id: 2,
+    plan: 'Enterprise Plan',
+    text: 'Effortlessly customize and fine-tune services as your needs shift, ensuring the perfect tools for success.',
+    btnText: 'Contact Us',
+    btnBg: '#8AB9FF',
+    smallBtn: "Let's Connect",
+
+    features: [
+      {
+        icon: <AiOutlineUser />,
+        benefit: 'More than  75 Users',
+      },
+
+      {
+        icon: <BsCheck2All />,
+        benefit: 'Customization of all other features',
       },
     ],
   },
