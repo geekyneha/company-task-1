@@ -8,7 +8,8 @@ export const Benefits = ({ features }) => {
 
       {features.map((feature) => (
         <div className={style['benefit']}>
-          <div>{feature.icon}</div> <div> {feature.benefit}</div>
+          <div>{feature.icon}</div>{' '}
+          <div className={style['feature']}> {feature.benefit}</div>
         </div>
       ))}
     </div>
