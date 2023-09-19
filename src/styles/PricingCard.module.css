@@ -1,0 +1,61 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.card {
+  width: 300px;
+  padding: 1rem 2rem;
+  border-radius: 14px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.13), 0 1px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+/* plan details */
+.plan-name {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.plan-price {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+.light {
+  color: darkgray;
+  font-size: 1.3rem;
+}
+.discounted-price {
+  position: relative;
+  display: inline-block;
+  color: #464545;
+  margin: 0.5rem 0;
+}
+
+.discounted-price::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  top: 50%;
+  transform: translateY(50%) rotate(8deg);
+}
+
+/* explore  */
+.explore-feature {
+  margin-left: 2rem;
+}
+.link {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.link:hover {
+  cursor: pointer;
+}
+.icon {
+  position: relative;
+  top: 2px;
+}
