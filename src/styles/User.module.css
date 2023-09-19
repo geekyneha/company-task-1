@@ -1,0 +1,30 @@
+.user-card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.profile {
+  margin-bottom: 1rem;
+}
+.profile-image {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: 900;
+}
+.user-email {
+  font-weight: 500;
+  color: #646363;
+}
+.user-name,
+.user-email {
+  line-height: 1;
+  margin: 0;
+}
