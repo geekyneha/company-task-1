@@ -1,0 +1,16 @@
+.heading {
+  margin: 3rem 0 1rem 6rem;
+}
+.text {
+  display: flex;
+justify-content: space-between;
+  width: 95%;
+  padding: 0.5rem 0;
+  
+}
+.small-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8AB9FF;
+  
+}
