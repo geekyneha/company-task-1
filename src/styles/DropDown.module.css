@@ -1,0 +1,12 @@
+.btn{
+
+    padding: 1.5rem 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+
+
+}
+.down-icon{
+  position: relative;
+  bottom: 10px;
+}
