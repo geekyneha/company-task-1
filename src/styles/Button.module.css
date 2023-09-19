@@ -1,0 +1,18 @@
+.btn {
+  display: flex;
+  gap: 1rem;
+
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: 500;
+}
+.arrow-icon {
+  position: relative;
+  top: 3px;
+}
+.btn:hover {
+  cursor: pointer;
+}
