@@ -1,0 +1,13 @@
+.layout {
+  width: 100vw;
+  display: flex;
+}
+.left-side-bar {
+  width: 15%;
+}
+.main-section {
+  width: 80%;
+}
+.right-side-bar {
+  width: 5%;
+}
