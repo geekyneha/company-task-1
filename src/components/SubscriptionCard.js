@@ -21,7 +21,7 @@ const SubscriptionCard = () => {
               {card.smallBtn}
             </div>
             <h2 className={style['plan-name']}>{card.plan}</h2>
-            <p>{card.text}</p>
+            <p className={style["text"]}>{card.text}</p>
             <Button
               name={card.btnText}
               color={card.btnBg}
