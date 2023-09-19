@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
 :root {
-  --primary-color: #e3f1fe;;
+  --primary-color: #e3f1fe;
   --secondary-color: #fff;
   --text-color: #000;
-
+  --btn-color: #2cb4e9;
+  --btn-background-color:#B8D5ED;
+  --btn-hover-color:#B1E7FF;
 }
 body {
   margin: 0;
