@@ -3,11 +3,11 @@
   display: flex;
 }
 .left-side-bar {
-  width: 15%;
+  width: 13%;
 }
 .main-section {
   width: 80%;
 }
 .right-side-bar {
-  width: 5%;
+  width: 7%;
 }
