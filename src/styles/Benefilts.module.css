@@ -1,12 +1,16 @@
 .benefit {
   display: flex;
   gap: 1rem;
+  width: 230px;
+
+  align-items: center;
   font-weight: 500;
   margin: 1rem 0 1rem 1rem;
 }
 .feature {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
+  color: rgb(71, 69, 69);
 }
 
 .text {
