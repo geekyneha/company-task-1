@@ -42,7 +42,7 @@ export const pricingCard = [
     id: 1,
     discount: '$89.99/mo',
     plan: 'Basic',
-    price: '$ 9.99/mo',
+    price: '$ 9.99',
     btnBg: '#FFE7A9',
 
     features: [
@@ -62,9 +62,9 @@ export const pricingCard = [
   },
   {
     id: 2,
-    discount: '$189.99/ma',
+    discount: '$189.99/mo',
     plan: 'Standard',
-    price: '$ 99.99/mo',
+    price: '$ 99.99',
     btnBg: '#FF9494',
     features: [
       {
@@ -83,9 +83,9 @@ export const pricingCard = [
   },
   {
     id: 3,
-    discount: '$389.99/ma',
+    discount: '$389.99/mo',
     plan: 'Premiuim',
-    price: '$ 199.99/mo',
+    price: '$ 199.99',
     btnBg: '#E7A2FF',
     features: [
       {
