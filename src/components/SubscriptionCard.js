@@ -7,7 +7,7 @@ import { subscriptionCard } from '../utils/mock';
 const SubscriptionCard = () => {
   return (
     <div className={style['all-cards']}>
-        {/* mapping cards (powerd by data from mock) */}
+      {/* mapping cards (powerd by data from mock) */}
       {subscriptionCard.map((card) => (
         <div
           className={style['card']}
@@ -21,7 +21,7 @@ const SubscriptionCard = () => {
               {card.smallBtn}
             </div>
             <h2 className={style['plan-name']}>{card.plan}</h2>
-            <p className={style["text"]}>{card.text}</p>
+            <p className={style['text']}>{card.text}</p>
             <Button
               name={card.btnText}
               color={card.btnBg}
