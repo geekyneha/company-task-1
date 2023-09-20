@@ -4,7 +4,7 @@
 .text {
   display: flex;
   justify-content: space-between;
-  width: 95%;
+  width: 90%;
   padding: 0.5rem 0;
 }
 .small-text {

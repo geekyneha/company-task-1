@@ -36,7 +36,6 @@
 /* Media 1uery for small devices */
 @media screen and (max-width: 1200px) {
   .card {
-    width: auto;
     flex-wrap: wrap;
   }
 }
