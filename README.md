@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Machine Task 1 💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
 
-In the project directory, you can run:
+- [Responsiveness](#responsiveness)
+- [Comments](#comments)
+- [Conclusion](#conclusion)
+- [Dependencies](#dependencies)
+- [Run Locally](#run-locally)
+- [Collabrators](#collabrators)
+- [Tech Stack](#tech-stack)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Assignment Overview 📄
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This assignment involves replicating a given design using React, with a focus on maintaining a clean and organized codebase. In this project, we've utilized React Icons for handling iconography. This README will provide an overview of the project structure and some key development choices.
 
-### `npm test`
+## Project Structure 📂
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **src Folder** :
+   - The `src` folder is the core of our project. It contains all our React components.
+   - Components are organized within this folder to keep our codebase manageable and intuitive.
 
-### `npm run build`
+2. **Styles Folder**:
+   - We've created a `styles` folder within `src` to house all our modular CSS files.
+   - Each CSS file uses the `.module.css` extension to ensure a clear separation of styles.
+   - This approach avoids deep nesting and promotes maintainability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Utils Folder**:
+   - The `utils` folder is home to constants and utility functions.
+   - Constants, such as URLs for images, follow the snake_case naming convention. For example, `IMAGE_URL`.
+   - This convention aids in code readability and consistency.
+   - We use camelCase for naming components when mocking data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Layout Structure**:
+   - To enhance the project's structure and intuitiveness, we've divided it into different sections.
+   - Sections like header, sidebar, main section, and left sidebar are encapsulated within a `layout.js` component.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Assets**:
+   - The `assets` directory contains all the images and resources needed for the project.
+   - This separation makes it easier to manage assets and keeps them organized.
 
-### `npm run eject`
+6. **Reusable Components**:
+   - We've developed reusable components, including buttons and cards, to maintain code consistency and reduce redundancy.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Responsiveness
+   - The project is designed to be responsive and adapt to various screen sizes, ensuring a consistent user experience across devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Comments 
+   - We have added comments wherever necessary to clarify code logic and enhance codebase understanding.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Conclusion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project aims to replicate a given design using React, adhering to best practices in terms of code structure and organization. By following naming conventions and utilizing modular CSS, we aim to create a maintainable and responsive application.
 
-## Learn More
+Feel free to reach out if you have any questions or need further information about the project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here are the main dependencies used in this project:
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **react**: "^18.2.0"
+- **react-dom**: "^18.2.0"
+- **react-icons**: "^4.10.1"
+- **react-router-dom**: "^6.15.0"
+- **react-scripts**: "5.0.1"
 
-### Making a Progressive Web App
+- 
+## Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone the project
 
-### Advanced Configuration
+```bash
+git clone https://github.com/geekyneha/company-task-1.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install dependencies
 
-### Deployment
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start the server
 
-### `npm run build` fails to minify
+```bash
+  npm start
+```
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Client:** React.js, CSS Modules, React icons 
+
+
+
+
+## Collabrators
+
+- [@geekyneha](https://github.com/geekyneha/company-task-1.git)
+
