@@ -22,7 +22,7 @@
   border-left: 120px solid var(--secondary-color);
   border-bottom: 120px solid transparent;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 /* content */
@@ -53,4 +53,43 @@
   justify-content: flex-end;
   margin-right: 4rem;
   height: 100%;
+}
+.menu {
+  display: none;
+}
+
+
+/* media query for different devices */
+@media screen and (max-width: 680px) {
+  .header {
+    height: 50px;
+  }
+  .right-section {
+    border-left: 50px solid var(--secondary-color);
+    border-bottom: 50px solid transparent;
+  }
+  .header-wrapper {
+    height: 50px;
+  }
+  .content-container {
+    display: none;
+  }
+  .company-name {
+    font-weight: normal;
+  }
+  .menu {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    margin: 1rem 1rem 0 0;
+  }
+  .menu-container {
+    z-index: 10;
+    position: fixed;
+    right: 0;
+  }
 }

@@ -11,3 +11,16 @@
 .right-side-bar {
   width: 5%;
 }
+@media screen and (max-width: 1240px) {
+  .left-side-bar {
+    display: none;
+  }
+  .main-section {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .right-side-bar {
+    display: none;
+  }
+}

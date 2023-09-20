@@ -3,14 +3,21 @@
 }
 .text {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
   width: 95%;
   padding: 0.5rem 0;
-  
 }
 .small-text {
   font-size: 12px;
   font-weight: bold;
-  color: #8AB9FF;
-  
+  color: #8ab9ff;
+}
+/* media query for different devices */
+@media screen and (max-width: 680px) {
+  .small-text {
+    margin-left: 1rem;
+  }
+  .heading {
+    margin: 1rem;
+  }
 }
